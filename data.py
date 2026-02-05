@@ -24,12 +24,45 @@ print(z) """
 """ x = input("write a sentence")
 def wordcount():
     count = x.split()
-    print(count)
-    wordcount() """
+    wc = len(count)
+    print(wc)
+wordcount()  """
+
+""" bill = float(input("how much was the bill"))
+service = input("how was the service(bad, okay, good, great)")
+if service == "bad":
+    tip = 0
+elif service == "okay":
+    tip = .15 * bill
+elif service == "good":
+    tip = .20 * bill
+elif service == "great":
+    tip = .25 * bill
+
+def total():
+    total = float(bill + tip)
+    print(total)
+total() """
+
+""" day_of_the_week = input("what day is it")
+if day_of_the_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
     
-bill = float(input("how much was the bill"))
-tip = float(input("how much do you want to tip"))
-def total(bill, tip):
-    total = (bill + tip)
-    total = float(input(total))
-    total()
+""" number = int(input("input a number"))
+def find_factors():
+    factors = []
+    print(find_factors)
+find_factors() """
