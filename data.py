@@ -60,6 +60,7 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
+
 """ factors = []
 num = int(input("input a number"))
 def find_factors():
@@ -75,19 +76,18 @@ if number % 2 == 0 :
 else:
     print("the number is odd") """
 
-factors = []
+factors_of_num = []
+factors_of_num_2 = []
 num = int(input("input a number"))
 num_2 = int(input("input another number"))
 def find_factors():
     for i in range(1, num + 1):
         if num % i == 0:
-            factors.append(i)
-            print(factors)
-find_factors()
-
-def find_factors():
+            factors_of_num.append(i)
+            print(factors_of_num)
     for i in range(1, num_2 + 1):
-        if num_2 % i == 0:
-            factors.append(i)
-            print(factors)
-find_factors()
+        if num % i == 0:
+            factors_of_num_2.append(i) 
+            print(factors_of_num_2)
+   
+find_factors() 
