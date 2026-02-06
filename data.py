@@ -51,18 +51,43 @@ else:
     print("incorrect") """
 
 """ x = "test"
-print(f"hello {x}") """
+print(f"hello {x}")  """
 
-temp = 75
+""" temp = 75
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
-    
-""" number = int(input("input a number"))
+    print('cold') """
+""" factors = []
+num = int(input("input a number"))
 def find_factors():
-    factors = []
-    print(find_factors)
-find_factors() """
+    for i in range(1, num + 1):
+        if num % i == 0:
+            factors.append(i)
+            print(factors)
+find_factors()   """
+
+""" number = int(input("state a number"))
+if number % 2 == 0 :
+    print("the number is even")
+else:
+    print("the number is odd") """
+
+factors = []
+num = int(input("input a number"))
+num_2 = int(input("input another number"))
+def find_factors():
+    for i in range(1, num + 1):
+        if num % i == 0:
+            factors.append(i)
+            print(factors)
+find_factors()
+
+def find_factors():
+    for i in range(1, num_2 + 1):
+        if num_2 % i == 0:
+            factors.append(i)
+            print(factors)
+find_factors()
